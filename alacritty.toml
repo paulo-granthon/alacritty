@@ -1,0 +1,17 @@
+[colors]
+draw_bold_text_with_bright_colors = false
+
+[colors.primary]
+background = "#101010"
+bright_foreground = "#eaeaea"
+foreground = "#ffffff"
+
+[font]
+size = 8.0
+
+[font.normal]
+family = "HackNerdFont"
+style = "Regular"
+
+[window]
+opacity = 0.8
