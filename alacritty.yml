@@ -58,10 +58,6 @@ window:
   # Values for `decorations`:
   #     - full: Borders and title bar
   #     - none: Neither borders nor title bar
-  #
-  # Values for `decorations` (macOS only):
-  #     - transparent: Title bar, transparent background and title bar buttons
-  #     - buttonless: Title bar, transparent background and no title bar buttons
   #decorations: full
 
   # Background opacity
@@ -76,9 +72,6 @@ window:
   #   - Windowed
   #   - Maximized
   #   - Fullscreen
-  #
-  # Values for `startup_mode` (macOS only):
-  #   - SimpleFullscreen
   #startup_mode: Windowed
 
   # Window title
@@ -105,13 +98,6 @@ window:
   #
   # Prefer resizing window by discrete steps equal to cell dimensions.
   #resize_increments: false
-
-  # Make `Option` key behave as `Alt` (macOS only):
-  #   - OnlyLeft
-  #   - OnlyRight
-  #   - Both
-  #   - None (default)
-  #option_as_alt: None
 
 #scrolling:
   # Maximum number of lines in the scrollback buffer.
